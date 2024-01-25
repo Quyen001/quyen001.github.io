@@ -1,1 +1,97 @@
-print("Hello World")
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DQTools</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #148cd7;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .product {
+            display: flex;
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        .product img {
+            width: 150px;
+            height: auto;
+            margin-right: 20px;
+        }
+        .product-info {
+            flex: 1;
+        }
+        .product-info h2 {
+            margin-top: 0;
+        }
+        .product-info p {
+            margin-bottom: 10px;
+        }
+        .product-info .price {
+            font-weight: bold;
+            color: #009688;
+        }
+        .buttons {
+            display: flex;
+            justify-content: safe;
+        }
+        .buttons button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .buttons button.view-more {
+            background-color: #ccc;
+            color: #000;
+        }
+        .buttons button.admin {
+            background-color: #009688;
+            color: #fff;
+        }
+        footer {
+            background-color: #148cd7;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DQTools</h1>
+    </header>
+    <div class="container">
+        <div class="product">
+            <img src="logo.png" alt="Product Image">
+            <div class="product-info">
+                <h2>Tools WuyenHotmail</h2> 
+                <p>Đăng kí tài khoản Hotmail, Outlook tự động.</p>
+                <p class="price">$120</p>
+                <div class="buttons">
+                    <button class="admin" onclick='window.location.href = "https://t.me/vbsn2000"'>Mua Ngay</button>
+                    <button class="view-more" onclick='window.location.href = "WebsiteView.html"'>Xem thêm</button>
+                </div>
+                <!-- <a href="https://www.example.com">Đi đến trang web khác</a> -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
